@@ -4,7 +4,8 @@
     <test name="Test1">
         <parameter name="BrowserType" value="Chrome"/>
         <classes>
-            <class name="Tests.TestCases.SendMailTestCase"/>
+            <!-- <class name="Tests.TestCases.SendMailTestCase"/> !-->
+            <class name="GoogleTest"/>
         </classes>
     </test>
 

@@ -39,7 +39,7 @@ public class HomePage {
     public HomePage enterMailTo()
     {
         WaitUtil.waitToTheElement(webDriver ,By.xpath("//div[@aria-label='To']"))
-                .sendKeys("yragab038@gmail.com");
+                .sendKeys("islam.hassan@vodafone.com");
 
         return this;
     }
